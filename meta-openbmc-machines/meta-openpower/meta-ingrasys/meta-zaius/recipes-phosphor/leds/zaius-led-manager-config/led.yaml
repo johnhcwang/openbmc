@@ -1,0 +1,20 @@
+bmc_booted:
+    heartbeat:
+        Action: 'On'
+        DutyOn: 50
+        Period: 0
+power_on:
+    power:
+        Action: 'On'
+        DutyOn: 50
+        Period: 0
+enclosure_fault:
+    plt_fault:
+        Action: 'On'
+        DutyOn: 50
+        Period: 0
+enclosure_identify:
+    attention:
+        Action: 'Blink'
+        DutyOn: 50
+        Period: 1000
