@@ -1,0 +1,5 @@
+---
+org.openbmc.settings.Host:
+    settings:
+        TimeOwner:
+            default: "SPLIT"
